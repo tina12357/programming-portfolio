@@ -11,7 +11,6 @@ This project automates the process of parsing invoices and mapping vendor-brand 
 - Write-back automation / 自動回寫到最新 INVOICE 表格  
 
 ---
-
 ## Architecture / 系統架構
 ```text
 Google Sheets (Invoice & Order & Brand)
@@ -25,3 +24,5 @@ Apps Script Automation
  └─ writeBack()         → Write results with deduplication (〃)
        ↓
 Updated Invoice Sheet
+
+
