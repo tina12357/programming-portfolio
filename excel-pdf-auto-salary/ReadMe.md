@@ -24,7 +24,30 @@ Each PDF is automatically named based on the workbook name and worksheet name.
 - ⚡ One-click execution / 一鍵執行  
 
 ---
+##🚀 How to Use / 使用方式
+- Open Excel file / 開啟 Excel 檔案
+- Press Alt + F11 to open VBA editor / 開啟 VBA 編輯器
+- Insert → Module / 插入模組
+- Paste the code / 貼上程式碼
+- Run pdf轉檔() / 執行巨集
+##⚠️ Notes / 注意事項
+- Worksheet names will be used as PDF names
+分頁名稱會直接作為 PDF 檔名
+- Avoid illegal file characters (e.g. \ / : * ? " < > |)
+請避免分頁名稱含非法字元
+- All worksheets will be exported
+所有分頁都會被輸出
+##📈 My Contribution / 我的貢獻
+- Designed automation logic for batch PDF export
+- Implemented dynamic file naming and folder creation
+- Reduced manual export workload significantly
+##🔮 Future Improvements / 未來優化
+- Export selected sheets only / 選擇性匯出分頁
+- Add UI button in Excel / 加入按鈕操作
+- Customize file naming rules / 自訂命名規則
+- Add logging / 匯出紀錄
 
+---
 ## 🧠 How It Works / 核心邏輯
 
 ```text
@@ -47,4 +70,5 @@ Save to Folder (WorkbookName/)
 ├── Salary_A.pdf
 ├── Salary_B.pdf
 ├── Salary_C.pdf
+
 
