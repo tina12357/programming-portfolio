@@ -47,17 +47,17 @@ Execute as: Me (Your Email) / 執行身分：我
 
 Who has access: Anyone / 誰可以存取：所有人
 
-Copy the Web App URL and paste it into the WEB_APP_URL variable in Code.gs.
+- Copy the Web App URL and paste it into the WEB_APP_URL variable in Code.gs.
 複製產生的「網頁應用程式網址」，回貼至 Code.gs 中的 WEB_APP_URL 變數。
 
 ## 📖 Usage | 使用方式
-Add Data: Fill in students and tasks in their respective tabs.
+- Add Data: Fill in students and tasks in their respective tabs.
 增加資料：在名單與任務庫填入資料。
 
-Dispatch: Use the custom menu 🛠️ Admin Tools > 🚀 Dispatch Tasks to send emails.
+- Dispatch: Use the custom menu 🛠️ Admin Tools > 🚀 Dispatch Tasks to send emails.
 派發任務：點擊選單「🛠️ 管理工具 > 🚀 執行：派發任務與寄送確認信」。
 
-Tracking: Monitor the Master Progress tab to see real-time updates as students click the buttons.
+- Tracking: Monitor the Master Progress tab to see real-time updates as students click the buttons.
 追蹤進度：當學生點擊回報時，可在「全體進度總表」看到狀態即時更新為「✅ 已完成」。
 
 ## 📂 Project Structure | 檔案結構
@@ -76,5 +76,5 @@ The system uses MailApp, which is subject to Google's daily quotas (usually 100 
 Always create a New Version when re-deploying the Web App after modifying doGet.
 修改網頁介面後，必須選擇「新版本」進行重新部署才會生效。
 
-📝 License
+## 📝 License
 MIT License. Feel free to fork and modify!
