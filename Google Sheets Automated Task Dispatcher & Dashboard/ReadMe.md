@@ -19,7 +19,7 @@ Anti-Spam Logic: Only sends emails when new tasks are added (limited to the top 
 
 防干擾邏輯：僅在有新任務時發信，且 Email 僅列出前 5 項以維持閱讀體驗。
 
-🛠️ Setup Instructions | 安裝步驟
+## 🛠️ Setup Instructions | 安裝步驟
 1. Spreadsheet Preparation | 準備試算表
 Create a Google Sheet with the following 3 tabs (case sensitive):
 在 Google 試算表中建立以下三個分頁（名稱需完全一致）：
@@ -50,7 +50,7 @@ Who has access: Anyone / 誰可以存取：所有人
 Copy the Web App URL and paste it into the WEB_APP_URL variable in Code.gs.
 複製產生的「網頁應用程式網址」，回貼至 Code.gs 中的 WEB_APP_URL 變數。
 
-📖 Usage | 使用方式
+## 📖 Usage | 使用方式
 Add Data: Fill in students and tasks in their respective tabs.
 增加資料：在名單與任務庫填入資料。
 
@@ -60,7 +60,7 @@ Dispatch: Use the custom menu 🛠️ Admin Tools > 🚀 Dispatch Tasks to send 
 Tracking: Monitor the Master Progress tab to see real-time updates as students click the buttons.
 追蹤進度：當學生點擊回報時，可在「全體進度總表」看到狀態即時更新為「✅ 已完成」。
 
-📂 Project Structure | 檔案結構
+## 📂 Project Structure | 檔案結構
 Code.gs: Main logic for scanning data, appending rows, and sending emails.
 
 Code.gs: 處理資料掃描、寫入總表及發送郵件的主邏輯。
@@ -69,7 +69,7 @@ WebApp.gs: Handles the Web UI, CSS styling, and the progress update API (doGet).
 
 WebApp.gs: 處理網頁介面、CSS 樣式美化及進度更新介面。
 
-⚠️ Requirements | 注意事項
+## ⚠️ Requirements | 注意事項
 The system uses MailApp, which is subject to Google's daily quotas (usually 100 emails/day for free accounts).
 本系統使用 Google 每日發信配額（一般帳號每日約 100 封）。
 
