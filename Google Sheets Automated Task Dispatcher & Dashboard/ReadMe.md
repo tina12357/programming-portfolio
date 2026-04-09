@@ -24,7 +24,7 @@ Anti-Spam Logic: Only sends emails when new tasks are added (limited to the top 
 Create a Google Sheet with the following 3 tabs (case sensitive):
 在 Google 試算表中建立以下三個分頁（名稱需完全一致）：
 
-學生名單 (Student List): A: Name, B: Email
+學生名單 (Student List): ```text A: Name, B: Email ```text 
 
 固定任務庫 (Task Library): A: Task Name, B: Description
 
